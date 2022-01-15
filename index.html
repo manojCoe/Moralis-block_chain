@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang = en>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE-edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document2</title>
+</head>
+<body>
+  <h2>User</h2>
+  <input type="email"  id="email", placeholder="email">
+  <input type="password" id="password", placeholder="password">
+  
+  <button id="signin">Sign in</button>
+  <br>
+  <br>
+  <input type="_name"  id="_name", placeholder="username">
+  <input type="_email"  id="_email", placeholder="email">
+  <input type="_password" id="_password", placeholder="password">
+  <button id="signup">Sign up</button>
+  <br>
+  <br>
+
+  <button id="LoginwithMetamask">LoginwithMetamask</button>
+  <button id="logout">Log out</button>
+  <!-- <button id="getuser">Get User</button> -->
+  <br>
+  <br>
+  <button id="getallusers">All Users</button>
+  
+  <br>
+  <br>
+  <input type="user_id" id="user_id", placeholder="user_id">
+  <button id="getuserbyid">Get User</button>
+
+  <br>
+  <h2>Etheruem</h2>
+  <input type="eth_address" id="eth_address", placeholder="eth_address">
+  <button id="ethbyaddress">Eth Balance By Address</button>
+
+  <br>
+  <br>
+
+  <input type="txhash" id="txhash", placeholder="txhash">
+  <button id="transaction">Transaction by Hash</button>
+  <br>
+  <br>
+  <input type="to_address"  id="to_address", placeholder="to_address">
+  <input type="eth_amount" id="eth_amount", placeholder="eth_amount">
+  <button id="sendeth">Send Eth</button>
+  <br>
+  <br>
+  <button id="getethaddresses">All Eth Addresses</button>
+  <button id="gettransactions">All Transactions</button>
+  <!-- <button id="getallethbalance">All Eth Balance</button> -->
+  <br>
+  <br>
+
+  <h2>NFTS</h2>
+  <input type="nft_holder_address"  id="nft_holder_address", placeholder="nft_holder_address">
+  <input type="chain" id="chain", placeholder="chain">
+  <button id="getnfts">Get nfts</button>
+  <br>
+  <br>
+  <input type="contract_address"  id="contract_address", placeholder="contract_address">
+  <input type="nft_chain" id="nft_chain", placeholder="nft_chain">
+  <button id="getcollections">Get collection</button>
+  <br>
+  <br>
+  <input type="contract_address_"  id="contract_address_", placeholder="contract_address">
+  <input type="nft_chain_" id="nft_chain_", placeholder="nft_chain">
+  <button id="getcollectionmeta">Get Collection Meta</button>
+
+  <br>
+  <br>
+  <input type="contract_address__"  id="contract_address__", placeholder="contract_address">
+  <input type="nft_chain__" id="nft_chain__", placeholder="nft_chain">
+  <button id="getowners">Get NFT Owners</button>
+
+  <br>
+  <br>
+  <input type="contract_address___"  id="contract_address___", placeholder="contract_address">
+  <input type="nft_chain___" id="nft_chain___", placeholder="nft_chain">
+  <button id="gettransfers">Get NFT Transfers</button>
+
+  <br>
+  <br>
+  <input type="query_string"  id="query_string", placeholder="query_string">
+  <input type="nft_chain____" id="nft_chain____", placeholder="nft_chain">
+  <button id="getqueryresults">Get Search Results</button>
+
+
+
+  <h2>Avalanche</h2>
+  <input type="avax_address" id="avax_address", placeholder="avax_address">
+  <input type="avax_chain" id="avax_chain", placeholder="chain">
+  <button id="avaxbyaddress">Avax Balance</button>
+  <br>
+  <br>
+  <br>
+  <input type="to_avax_address"  id="to_avax_address", placeholder="to_avax_address">
+  <input type="avax_amount" id="avax_amount", placeholder="avax_amount">
+  <button id="sendavax">Send Avax</button>
+  <br>
+  <br>
+  <input type="avax_txhash" id="avax_txhash", placeholder="avax_txhash">
+  <button id="avaxtransaction">Transaction by Hash</button>
+  <br>
+  <br>
+  
+  <button id="getallavaxbalance">All Avax Bal</button>
+
+  <script src = "https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+  <script src="https://npmcdn.com/moralis/dist/moralis.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <!-- <script src="https://unpkg.com/moralis/dist/moralis.js"></script> -->
+  <!-- <script src="Avalanche.mjs" type="module"></script> -->
+  <script src="Avax.js" type="module"></script>
+  <script src="User.js" type="module"></script>
+  <script src="Ethereum.js" type="module"></script>
+  <script src="NFT.js " type="module"></script>
+  <script src="main.js" type="module"></script>
+</body>
+</html>

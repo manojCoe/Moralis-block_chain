@@ -1,0 +1,13 @@
+{
+    "version":"6.0",
+    "private_key": "0e3413a05e52030e4224dd8a9ce1e90b79690cd0d57501858a53b49aa35abfd9",
+    "salt":"HCDtzJGH4PJ3eBg2LyiXT9RwmXB",
+    "activeIndex":0,
+    "keys":[
+        {
+            "key":"4KHWinz1Yf9JSpNUnE8zZaHpedPz2ncQyAd92BtiB1jsZeiGkBFfVciUF2pCXXmyeVpyLD5jUqrneXCZMF6EqymFFVyUk9JoGqsN7mLAzG3CUA6qt2ttccMDRmaHWfbXb7tdhbjSshF9xKy9ktVdMaFP28Nv3sKCTwLhyz1UJd3SYsCzKdNKmf6koNRjGiePAb2QNc7agoNfuQ793AE3koqZshKE8fgjdPNX9VUJYU7",
+            "iv":"NdcxJsK5ActfKGcxvrUrKt",
+            "type":"mnemonic"
+        }
+    ]
+}

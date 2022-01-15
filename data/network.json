@@ -1,0 +1,19 @@
+{
+    "rawUrl":"https://api.avax-test.network",
+    "apiProtocol":"https",
+    "apiIp":"api.avax-test.network",
+    "apiPort":443,
+    "explorerURL":"https://explorerapi.avax-test.network",
+    "explorerSiteURL":"https://explorer.avax-test.network",
+    "networkID":5,
+    "xChainID":"2JVSBoinj9C2J33VntvzYtVJNZdN2NKiwwKjcumHUWEb5DbBrm",
+    "pChainID":"11111111111111111111111111111111LpoYY",
+    "cChainID":"yH8D7ThNJkxmtkuv2jgBa4P1Rn3Qpr4pPr7QYNfcdoS6k6HWp",
+    "evmChainID":43113,
+    "avaxID":"U8iRqJoiJm8xZHAacmvYyZVwqQx6uDNtQeP3CQ6fcgQk3JqnK",
+    "rpcUrl":{
+        "c":"https://api.avax-test.network:443/ext/bc/C/rpc",
+        "p":"https://api.avax-test.network:443/ext/bc/P",
+        "x":"https://api.avax-test.network:443/ext/bc/X"
+    }
+}
